@@ -8,21 +8,20 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   html: |-
-  <div>
-    <a href="https://www.linkedin.com/in/yuchen-su-060069348/" title="Email Me">
-      <i class="fa-solid fa-envelope" style="font-size: 49px;"></i>
-    </a>
-    <a href="https://www.linkedin.com/in/yuchen-su-060069348/" title="Inspire HEP" rel="external nofollow noopener" target="_blank">
-      <i class="ai ai-inspire" style="font-size: 49px;"></i>
-    </a>
-    <a href="https://github.com/Bingbing-0131" title="GitHub" rel="external nofollow noopener" target="_blank">
-      <i class="fa-brands fa-github" style="font-size: 49px;"></i>
-    </a>
-    <a href="https://scholar.google.com/citations?user=m6iV_CoAAAAJ&hl=en" title="Google Scholar" rel="external nofollow noopener" target="_blank">
-      <i class="ai ai-google-scholar" style="font-size: 49px;"></i>
-    </a>
-  </div>
-
+    <div>
+      <a href="https://www.linkedin.com/in/yuchen-su-060069348/" title="Email Me">
+        <i class="fa-solid fa-envelope" style="font-size: 49px;"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/yuchen-su-060069348/" title="Inspire HEP" rel="external nofollow noopener" target="_blank">
+        <i class="ai ai-inspire" style="font-size: 49px;"></i>
+      </a>
+      <a href="https://github.com/Bingbing-0131" title="GitHub" rel="external nofollow noopener" target="_blank">
+        <i class="fa-brands fa-github" style="font-size: 49px;"></i>
+      </a>
+      <a href="https://scholar.google.com/citations?user=m6iV_CoAAAAJ&hl=en" title="Google Scholar" rel="external nofollow noopener" target="_blank">
+        <i class="ai ai-google-scholar" style="font-size: 49px;"></i>
+      </a>
+    </div>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
