@@ -6,7 +6,7 @@ permalink: /
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   html: |-
     <div>
       <a href="https://www.linkedin.com/in/yuchen-su-060069348/" title="Email Me">
