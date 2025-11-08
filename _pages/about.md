@@ -7,7 +7,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
-  html: |-
+  more_info: |-
     <div>
       <a href="https://www.linkedin.com/in/yuchen-su-060069348/" title="Email Me">
         <i class="fa-solid fa-envelope" style="font-size: 49px;"></i>
