@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: Computation Design of passive swimmer
+description: collaborated with Professor Bolei Deng
+img: /assets/img/12.jpg
 importance: 3
 category: fun
 ---
@@ -47,6 +47,20 @@ You can also put regular text between your rows of images.
 Say you wanted to write a little bit about your project before you posted the rest of the images.
 You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
+<!-- 新增：视频部分 -->
+<div class="row justify-content-sm-center">
+  <div class="col-sm-8 mt-3 mt-md-0">
+    <video class="img-fluid rounded z-depth-1" controls>
+      <source src="assets/video/tutorial_al_folio.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+<div class="caption">
+    Simulation video of the passive swimmer design.
+</div>
+<!-- 视频部分结束 -->
+
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -55,26 +69,5 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
         {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
 
 {% endraw %}
