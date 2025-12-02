@@ -48,17 +48,16 @@ You can also put regular text between your rows of images.
 Say you wanted to write a little bit about your project before you posted the rest of the images.
 You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<!-- 视频部分开始 -->
+<!-- 视频部分开始：用 video.liquid -->
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    <video class="img-fluid rounded z-depth-1" controls>
-      <source src="assets/video/tutorial_al_folio.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+    {% include video.liquid
+       path="/assets/video/tutorial_al_folio.mp4"
+       class="img-fluid rounded z-depth-1"
+       controls=true
+       caption="Simulation video of the passive swimmer design."
+    %}
   </div>
-</div>
-<div class="caption">
-    Simulation video of the passive swimmer design.
 </div>
 <!-- 视频部分结束 -->
 
