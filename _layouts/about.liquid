@@ -73,6 +73,14 @@ layout: default
       </div>
     {% endif %}
 
+    {% if page.projects and page.projects.enabled %}
+      <h2>
+        <a href="{{ '/projects/' | relative_url }}" style="color: inherit">projects</a>
+      </h2>
+      {% include projects.html %}
+    {% endif %}
+
+
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
     {% endif %}
