@@ -72,6 +72,7 @@ horizontal: false
 {% assign sorted_projects = site.projects | sort: "importance" %}
 
 {% for project in sorted_projects %}
+
 <div class="row my-4 align-items-center">
 <!-- 左边：封面图 -->
 <div class="col-md-4 mb-2 mb-md-0">
