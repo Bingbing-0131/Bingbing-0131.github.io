@@ -4,7 +4,7 @@ title: Computation Design of passive swimmer
 description: collaborated with Professor Bolei Deng
 img: /assets/img/12.jpg
 importance: 3
-category: fun
+category: research
 ---
 
 Every project has a beautiful feature showcase page.

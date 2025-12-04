@@ -40,6 +40,59 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    <!-- Research on home page -->
+    {% if page.research and page.research.enabled %}
+      <h2>
+        <a href="{{ '/projects/' | relative_url }}" style="color: inherit">research</a>
+      </h2>
+
+      {% assign research_projects = site.projects | where: 'category', 'research' | sort: 'importance' %}
+
+      {% if page.research.limit %}
+        {% assign research_projects = research_projects | slice: 0, page.research.limit %}
+      {% endif %}
+
+      <div class="projects">
+        {% for project in research_projects %}
+          <div class="row my-4 align-items-center">
+            <!-- 左边：封面图 -->
+            <div class="col-md-4 mb-2 mb-md-0">
+              {% if project.img %}
+                {%
+                  include figure.liquid
+                  path=project.img
+                  title=project.title
+                  class="img-fluid rounded z-depth-1"
+                %}
+              {% endif %}
+            </div>
+
+            <!-- 右边：文字 -->
+            <div class="col-md-8">
+              <h3 class="mt-2 mt-md-0">
+                <a href="{{ project.url | relative_url }}">
+                  {{ project.title }}
+                </a>
+              </h3>
+
+              {% if project.description %}
+                <p class="text-muted">
+                  {{ project.description }}
+                </p>
+              {% endif %}
+
+              <p class="mb-0 small text-muted">
+                {% if project.date %}
+                  <span><strong>Date:</strong> {{ project.date | date: '%Y-%m-%d' }}</span>
+                {% endif %}
+              </p>
+            </div>
+          </div>
+          <hr>
+        {% endfor %}
+      </div>
+    {% endif %}
+
     <!-- Projects on home page -->
     {% if page.projects and page.projects.enabled %}
       <h2>

@@ -35,6 +35,10 @@ announcements:
   enabled: false # includes a list of news items
   scrollable: false # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
+
+research:
+  enabled: true
+  limit: 5 # 想显示几条就写几条，不要就删掉这一行
 ---
 
 Hi! I'm Yuchen Su, a senior undergraduate student in mechanics at Tsinghua University.
