@@ -95,7 +95,10 @@ layout: default
         <a href="{{ '/projects/' | relative_url }}" style="color: inherit">Projects</a>
       </h2>
 
-      {% assign sorted_projects = site.projects | sort: 'importance' %}
+      {% comment %}
+        Projects：排除掉 category = research 的项目
+      {% endcomment %}
+      {% assign sorted_projects = site.projects | reject: 'category', 'research' | sort: 'importance' %}
 
       {% if page.projects.limit %}
         {% assign sorted_projects = sorted_projects | slice: 0, page.projects.limit %}
@@ -119,9 +122,15 @@ layout: default
             <!-- 右边：项目文字 -->
             <div class="col-md-8">
               <h3 class="mt-2 mt-md-0">
-                <a href="{{ project.url | relative_url }}">
-                  {{ project.title }}
-                </a>
+                {% if project.github %}
+                  <a href="{{ project.github }}" target="_blank" rel="noopener">
+                    {{ project.title }}
+                  </a>
+                {% else %}
+                  <a href="{{ project.url | relative_url }}">
+                    {{ project.title }}
+                  </a>
+                {% endif %}
               </h3>
 
               {% if project.description %}
@@ -129,12 +138,6 @@ layout: default
                   {{ project.description }}
                 </p>
               {% endif %}
-
-              <p class="mb-0 small text-muted">
-                {% if project.category %}
-                  <span class="me-2"><strong>Category:</strong> {{ project.category }}</span>
-                {% endif %}
-              </p>
             </div>
           </div>
           <hr>
