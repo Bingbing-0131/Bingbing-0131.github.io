@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-research",
+          title: "Research",
+          description: "Research projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/research/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
@@ -76,6 +83,11 @@ ninja.data = [{
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project.html";
+            },},{id: "research-progressive-sound-synthesis",
+          title: 'Progressive Sound Synthesis',
+          description: "guided by Professor Doug James, mentored by Eris Zhang and Kangrui Xue",
+          section: "Research",handler: () => {
+              window.location.href = "/research/progressive.html";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
