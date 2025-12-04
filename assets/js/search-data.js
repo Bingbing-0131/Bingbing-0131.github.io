@@ -4,20 +4,20 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-publications",
-          title: "publications",
+          title: "Publications",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
-          title: "projects",
+          title: "Projects",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -46,9 +46,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+          section: "News",},{id: "projects-simple-ray-traces",
+          title: 'Simple Ray Traces',
+          description: "course project of computer graphics",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project.html";
             },},{id: "projects-computational-fluid-mechanics",
@@ -56,9 +56,9 @@ ninja.data = [{
           description: "course project of CFD",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project.html";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+            },},{id: "projects-stable-fluid",
+          title: 'Stable Fluid',
+          description: "An implementation of stable fluid with irregular boundary",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project.html";
             },},{id: "research-computational-design-of-bio-inspired-fliers",
