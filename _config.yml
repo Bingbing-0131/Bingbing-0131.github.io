@@ -101,6 +101,8 @@ collections:
     output: false
   projects:
     output: true
+  research:
+    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
