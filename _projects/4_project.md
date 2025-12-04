@@ -55,6 +55,7 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
        path="/assets/video/tutorial_al_folio.mp4"
        class="img-fluid rounded z-depth-1"
        controls=true
+       poster="/assets/img/swimmer_cover.jpg"
        caption="Simulation video of the passive swimmer design."
     %}
   </div>
