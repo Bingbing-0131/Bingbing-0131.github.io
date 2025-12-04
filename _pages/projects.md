@@ -53,9 +53,6 @@ horizontal: false
             {% if project.category %}
               <span class="me-2"><strong>Category:</strong> {{ project.category }}</span>
             {% endif %}
-            {% if project.date %}
-              <span><strong>Date:</strong> {{ project.date | date: "%Y-%m-%d" }}</span>
-            {% endif %}
           </p>
         </div>
       </div>
@@ -102,9 +99,6 @@ horizontal: false
         <p class="mb-0 small text-muted">
           {% if project.category %}
             <span class="me-2"><strong>Category:</strong> {{ project.category }}</span>
-          {% endif %}
-          {% if project.date %}
-            <span><strong>Date:</strong> {{ project.date | date: "%Y-%m-%d" }}</span>
           {% endif %}
         </p>
       </div>

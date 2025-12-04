@@ -81,11 +81,7 @@ layout: default
                 </p>
               {% endif %}
 
-              <p class="mb-0 small text-muted">
-                {% if project.date %}
-                  <span><strong>Date:</strong> {{ project.date | date: '%Y-%m-%d' }}</span>
-                {% endif %}
-              </p>
+              <p class="mb-0 small text-muted"></p>
             </div>
           </div>
           <hr>
@@ -137,9 +133,6 @@ layout: default
               <p class="mb-0 small text-muted">
                 {% if project.category %}
                   <span class="me-2"><strong>Category:</strong> {{ project.category }}</span>
-                {% endif %}
-                {% if project.date %}
-                  <span><strong>Date:</strong> {{ project.date | date: '%Y-%m-%d' }}</span>
                 {% endif %}
               </p>
             </div>

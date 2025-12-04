@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Computational Design of Bio-Inspired Fliers
+description: guided by Professor Tao Du
+img: assets/img/butterfly.gif
 importance: 2
-category: work
+category: research
 giscus_comments: true
 ---
 
