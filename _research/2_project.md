@@ -6,56 +6,64 @@ img: assets/img/butterfly.gif
 importance: 2
 ---
 
-Our RL-trained control policy for a rigid buttefly
+<div class="container my-4">
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/butterfly.gif" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<!-- 视频部分开始：用 video.liquid -->
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include video.liquid
-       path="/assets/video/tutorial_al_folio.mp4"
-       class="img-fluid rounded z-depth-1"
-       controls=true
-       poster="/assets/img/swimmer_cover.jpg"
-       caption="Simulation video of the passive swimmer design."
-    %}
+  <!-- 标题区 -->
+  <div class="text-center mb-5">
+    <h1 class="mb-2">Computational Design of Bio-Inspired Fliers</h1>
+    <p class="text-muted mb-1">guided by Professor Tao Du</p>
+    <p class="text-muted">Reinforcement learning and physics-based simulation for bio-inspired flight.</p>
   </div>
-</div>
-<!-- 视频部分结束 -->
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <!-- RL-trained butterfly 区块 -->
+  <section class="mb-5">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-3 mb-md-0">
+        <h2 class="h4 mb-3">RL-Trained Control Policy for a Rigid Butterfly</h2>
+        <p class="text-muted">
+          We develop a reinforcement learning based control policy for a rigid butterfly model.
+          The policy learns to generate stable, efficient flapping motions that produce sustained flight
+          under realistic aerodynamic conditions.
+        </p>
+      </div>
+      <div class="col-md-6 text-center">
+        {% include figure.liquid 
+          loading="eager" 
+          path="assets/img/butterfly.gif" 
+          title="RL-trained rigid butterfly" 
+          class="img-fluid rounded shadow-sm"
+        %}
+        <div class="caption text-muted mt-2">
+          Our learned policy produces natural, periodic flapping while maintaining altitude and stability.
+        </div>
+      </div>
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+  </section>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
+  <hr class="my-4">
+
+  <!-- XPBD wing simulation 区块 -->
+  <section class="mb-5">
+    <div class="row align-items-center flex-md-row-reverse">
+      <div class="col-md-6 mb-3 mb-md-0">
+        <h2 class="h4 mb-3">XPBD Wing Simulation</h2>
+        <p class="text-muted">
+          We use an Extended Position-Based Dynamics (XPBD) framework to simulate deformable wings.
+          We use a couple shell and rod.
+        </p>
+      </div>
+      <div class="col-md-6 text-center">
+        {% include figure.liquid 
+          loading="eager" 
+          path="assets/video/rod_45.mp4" 
+          title="XPBD wing simulation" 
+          class="img-fluid rounded shadow-sm"
+        %}
+        <div class="caption text-muted mt-2">
+          Wing Simulation
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
