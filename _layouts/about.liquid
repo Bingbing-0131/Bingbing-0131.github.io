@@ -22,11 +22,9 @@ layout: default
           {% if page.profile.image_circular %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
           {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
           {%
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
             cache_bust=true
@@ -40,13 +38,13 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
-    <!-- Research on home page -->
+    <!-- Research on home page （使用 research collection） -->
     {% if page.research and page.research.enabled %}
       <h2>
-        <a href="{{ '/projects/' | relative_url }}" style="color: inherit">Research</a>
+        <a href="{{ '/research/' | relative_url }}" style="color: inherit">Research</a>
       </h2>
 
-      {% assign research_projects = site.projects | where: 'category', 'research' | sort: 'importance' %}
+      {% assign research_projects = site.research | sort: 'importance' %}
 
       {% if page.research.limit %}
         {% assign research_projects = research_projects | slice: 0, page.research.limit %}
@@ -70,9 +68,15 @@ layout: default
             <!-- 右边：文字 -->
             <div class="col-md-8">
               <h3 class="mt-2 mt-md-0">
-                <a href="{{ project.url | relative_url }}">
-                  {{ project.title }}
-                </a>
+                {% if project.github %}
+                  <a href="{{ project.github }}" target="_blank" rel="noopener">
+                    {{ project.title }}
+                  </a>
+                {% else %}
+                  <a href="{{ project.url | relative_url }}">
+                    {{ project.title }}
+                  </a>
+                {% endif %}
               </h3>
 
               {% if project.description %}
@@ -89,16 +93,13 @@ layout: default
       </div>
     {% endif %}
 
-    <!-- Projects on home page -->
+    <!-- Projects on home page （使用 projects collection） -->
     {% if page.projects and page.projects.enabled %}
       <h2>
         <a href="{{ '/projects/' | relative_url }}" style="color: inherit">Projects</a>
       </h2>
 
-      {% comment %}
-        Projects：排除掉 category = research 的项目
-      {% endcomment %}
-      {% assign sorted_projects = site.projects | reject: 'category', 'research' | sort: 'importance' %}
+      {% assign sorted_projects = site.projects | sort: 'importance' %}
 
       {% if page.projects.limit %}
         {% assign sorted_projects = sorted_projects | slice: 0, page.projects.limit %}
