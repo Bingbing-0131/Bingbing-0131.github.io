@@ -18,6 +18,7 @@ site.research 里的每个条目都有 front matter: title / description / img /
 {% assign research_items = site.research | sort: "importance" %}
 
 {% for project in research_items %}
+
 <div class="row my-4 align-items-center">
 <!-- 左边：封面图 -->
 <div class="col-md-4 mb-2 mb-md-0">
