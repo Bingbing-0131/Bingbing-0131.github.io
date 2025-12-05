@@ -8,127 +8,120 @@ importance: 2
 
 <div class="container my-4">
 
-  <!-- RL-trained butterfly 区块 -->
-  <section class="mb-5">
-    <div class="row align-items-center">
-      <div class="col-md-6 mb-3 mb-md-0">
-        <h2 class="h4 mb-3">RL-Trained Control Policy for a Rigid Butterfly</h2>
-        <p class="text-muted">
-          We develop a reinforcement learning based control policy for a rigid butterfly model.
-          The policy learns to generate stable, efficient flapping motions that produce sustained flight
-          under realistic aerodynamic conditions.
-        </p>
-      </div>
-      <div class="col-md-6 text-center">
-        {% include figure.liquid 
-          loading="eager" 
-          path="assets/img/butterfly.gif" 
-          title="RL-trained rigid butterfly" 
-          class="img-fluid rounded shadow-sm"
-        %}
-        <div class="caption text-muted mt-2">
-          Our learned policy produces natural, periodic flapping while maintaining altitude and stability.
-        </div>
+  <!-- RL-trained butterfly：上下居中 -->
+  <section class="mb-5 text-center">
+    <h2 class="h4 mb-3">RL-Trained Control Policy for a Rigid Butterfly</h2>
+    <p class="text-muted mx-auto" style="max-width: 720px;">
+      We develop a reinforcement learning based control policy for a rigid butterfly model.
+      The policy learns to generate stable, efficient flapping motions that produce sustained flight
+      under realistic aerodynamic conditions.
+    </p>
+    <div class="mt-3">
+      {% include figure.liquid 
+        loading="eager" 
+        path="assets/img/butterfly.gif" 
+        title="RL-trained rigid butterfly" 
+        class="img-fluid rounded shadow-sm"
+      %}
+      <div class="caption text-muted mt-2">
+        Our learned policy produces natural, periodic flapping while maintaining altitude and stability.
       </div>
     </div>
   </section>
 
   <hr class="my-4">
 
-  <!-- XPBD wing simulation 区块 -->
-  <section class="mb-5">
-    <div class="row align-items-center flex-md-row-reverse">
-      <div class="col-md-6 mb-3 mb-md-0">
-        <h2 class="h4 mb-3">XPBD Wing Simulation</h2>
-        <p class="text-muted">
-          We also design a hardware to validate our results
-        </p>
-      </div>
-      <div class="col-md-6 text-center">
-        {% include figure.liquid 
-          loading="eager" 
-          path="assets/video/rod_45.mp4" 
-          title="XPBD wing simulation" 
-          class="img-fluid rounded shadow-sm"
-        %}
-        <div class="caption text-muted mt-2">
-          Wing Simulation
-        </div>
+  <!-- XPBD wing simulation：壳 + 杆，上下居中 -->
+  <section class="mb-5 text-center">
+    <h2 class="h4 mb-3">XPBD Wing Simulation</h2>
+    <p class="text-muted mx-auto" style="max-width: 720px;">
+      We use an Extended Position-Based Dynamics (XPBD) framework to simulate deformable wings.
+      We use a coupled shell and rod model.
+    </p>
+    <div class="mt-3">
+      {% include figure.liquid 
+        loading="eager" 
+        path="assets/video/hardware.mp4" 
+        title="XPBD wing simulation" 
+        class="img-fluid rounded shadow-sm"
+      %}
+      <div class="caption text-muted mt-2">
+        Wing Simulation
       </div>
     </div>
   </section>
 
 
-  <!-- XPBD wing simulation 区块 -->
-  <section class="mb-5">
-    <div class="row align-items-center flex-md-row-reverse">
-      <div class="col-md-6 mb-3 mb-md-0">
-        <h2 class="h4 mb-3">XPBD Wing Simulation</h2>
-        <p class="text-muted">
-          We use an Extended Position-Based Dynamics (XPBD) framework to simulate deformable wings.
-          We use a couple shell and rod.
-        </p>
-      </div>
-      <div class="col-md-6 text-center">
-        {% include figure.liquid 
-          loading="eager" 
-          path="assets/video/rod_45.mp4" 
-          title="XPBD wing simulation" 
-          class="img-fluid rounded shadow-sm"
-        %}
-        <div class="caption text-muted mt-2">
-          Wing Simulation
-        </div>
+  <!-- XPBD wing simulation：硬件验证，上下居中 -->
+  <section class="mb-5 text-center">
+    <h2 class="h4 mb-3">XPBD Wing Simulation</h2>
+    <p class="text-muted mx-auto" style="max-width: 720px;">
+      We also design hardware to validate our results.
+    </p>
+    <div class="mt-3">
+      {% include figure.liquid 
+        loading="eager" 
+        path="assets/video/rod_45.mp4" 
+        title="XPBD wing simulation" 
+        class="img-fluid rounded shadow-sm"
+      %}
+      <div class="caption text-muted mt-2">
+        Wing Simulation
       </div>
     </div>
   </section>
 
-  <!-- XPBD wing simulation 区块 -->
-  <section class="mb-5">
-    <div class="row align-items-center flex-md-row-reverse">
-      <div class="col-md-6 mb-3 mb-md-0">
-        <h2 class="h4 mb-3">XPBD Wing Simulation</h2>
-        <p class="text-muted">
-          Our hardware test example and our sim2real gap
-        </p>
-      </div>
-      <div class="col-md-6 text-center">
-        {% include figure.liquid 
-          loading="eager" 
-          path="assets/img/hardware.mp4" 
-          title="XPBD wing simulation" 
-          class="img-fluid rounded shadow-sm"
-        %}
-        <div class="caption text-muted mt-2">
-          Wing Simulation
-        </div>
+  <!-- XPBD wing simulation：硬件实验 & sim2real，上下居中 -->
+  <section class="mb-5 text-center">
+    <h2 class="h4 mb-3">XPBD Wing Simulation</h2>
+    <p class="text-muted mx-auto" style="max-width: 720px;">
+      Our hardware test characterizes the remaining sim-to-real gap. To evaluate both the accuracy of our
+      hardware-based force measurement system and our simulator, we design three experiments and compare
+      the measured forces against simulated predictions. The motion of the flapping wing in these experiments is shown below.
+    </p>
+    <div class="mt-3">
+      {% include figure.liquid 
+        loading="eager" 
+        path="assets/img/sim2real.png" 
+        title="XPBD wing simulation" 
+        class="img-fluid rounded shadow-sm"
+      %}
+      <div class="caption text-muted mt-2">
+        Wing Simulation
       </div>
     </div>
   </section>
 
-  Comparing to simplified fluid, we want to address the importance of using higher precision fluid solver.
-  The most important reason is that simplified fluid cannot model the interaction between different wings.
-  We let two wings flaps with their tip close together
-  Our results show that when the right wing flaps in phase with the left wing, it increases the force experienced by the left wing. When the right wing remains stationary, the force on the left wing decreases by about $10\%$. A further $10\%$ reduction occurs when the right wing flaps at a phase difference of $\pi$. These observations highlight the complex aerodynamic coupling that occurs in groups of insects flying in proximity. The image below shows the influence of the vortex generated by the two wings.
-  <section class="mb-5">
-    <div class="row align-items-center flex-md-row-reverse">
-      <div class="col-md-6 mb-3 mb-md-0">
-        <h2 class="h4 mb-3">XPBD Wing Simulation</h2>
-        <p class="text-muted">
-          Our hardware test example and our sim2real gap
-        </p>
-      </div>
-      <div class="col-md-6 text-center">
-        {% include figure.liquid 
-          loading="eager" 
-          path="assets/img/influence.png" 
-          title="XPBD wing simulation" 
-          class="img-fluid rounded shadow-sm"
-        %}
-        <div class="caption text-muted mt-2">
-          Wing Simulation
-        </div>
+  <!-- 对简化流体的对比说明，单独一段，上下居中 -->
+  <section class="mb-5 text-center">
+    <p class="text-muted mx-auto" style="max-width: 800px;">
+      Comparing to simplified fluid models, we want to address the importance of using a higher precision fluid solver.
+      A key limitation of simplified models is that they cannot capture the interaction between multiple wings.
+      We let two wings flap with their tips close together. Our results show that when the right wing flaps in phase
+      with the left wing, it increases the force experienced by the left wing. When the right wing remains stationary,
+      the force on the left wing decreases by about \(10\%\). A further \(10\%\) reduction occurs when the right wing
+      flaps at a phase difference of \(\pi\). These observations highlight the complex aerodynamic coupling that occurs
+      in groups of insects flying in proximity.
+    </p>
+  </section>
+
+  <!-- 影响图像：上下居中 -->
+  <section class="mb-5 text-center">
+    <h2 class="h4 mb-3">Influence of Wing–Wing Vortex Interaction</h2>
+    <p class="text-muted mx-auto" style="max-width: 720px;">
+      The image below shows the influence of the vortices generated by the two wings.
+    </p>
+    <div class="mt-3">
+      {% include figure.liquid 
+        loading="eager" 
+        path="assets/img/influence.png" 
+        title="XPBD wing simulation" 
+        class="img-fluid rounded shadow-sm"
+      %}
+      <div class="caption text-muted mt-2">
+        Visualization of interacting vortices generated by the two flapping wings.
       </div>
     </div>
   </section>
+
 </div>
