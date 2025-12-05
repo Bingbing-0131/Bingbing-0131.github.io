@@ -51,8 +51,8 @@ ninja.data = [{
           description: "course project of computer graphics",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project.html";
-            },},{id: "projects-computational-fluid-mechanics",
-          title: 'Computational Fluid Mechanics',
+            },},{id: "projects-computational-fluid-dynamics",
+          title: 'Computational Fluid Dynamics',
           description: "course project of CFD",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project.html";
