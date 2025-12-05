@@ -8,13 +8,6 @@ importance: 2
 
 <div class="container my-4">
 
-  <!-- 标题区 -->
-  <div class="text-center mb-5">
-    <h1 class="mb-2">Computational Design of Bio-Inspired Fliers</h1>
-    <p class="text-muted mb-1">guided by Professor Tao Du</p>
-    <p class="text-muted">Reinforcement learning and physics-based simulation for bio-inspired flight.</p>
-  </div>
-
   <!-- RL-trained butterfly 区块 -->
   <section class="mb-5">
     <div class="row align-items-center">

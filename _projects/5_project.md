@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Simple Ray Traces
+title: Simple Ray Tracer
 description: course project of computer graphics
-img: assets/img/1.jpg
-importance: 3
+img: assets/img/raytrace_nee.bmp
+importance: 2
 category: fun
 ---
