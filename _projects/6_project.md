@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Computational Fluid Mechanics
+title: Computational Fluid Dynamics
 description: course project of CFD
 img: assets/img/jacobi_grid_intersect_modify.png
 importance: 1
