@@ -41,8 +41,8 @@ research:
   limit: 5 # 想显示几条就写几条，不要就删掉这一行
 ---
 
-Hi! I'm Yuchen Su, a senior undergraduate student in [Tsien Excellence of Engineering Program (TEEP)] (https://www.hy.tsinghua.edu.cn/hyen/Academics/Lectures.htm) at Tsinghua University, majored in Theoretical and Applied Mechanics.
+Hi! I'm Yuchen Su, a senior undergraduate student in [Tsien Excellence of Engineering Program (TEEP)](https://www.hy.tsinghua.edu.cn/hyen/Academics/Lectures.htm) at Tsinghua University, majored in Theoretical and Applied Mechanics.
 
-I am currently advised by Professor [Doug James](https://graphics.stanford.edu/~djames/) at Stanford Univeristy and Professor [Tao Du](https://people.iiis.tsinghua.edu.cn/~taodu/) at Tsinghua Univeristy. Previously, I was also advised by Professor [Hongyang Jia](https://web.ee.tsinghua.edu.cn/jiahongyang/en/index.htm) at Tsinghua Univeristy. I have also collaborate with Professor [Bolei Deng] (https://www.boleideng.com/) at Georgia Tech
+I am currently advised by Professor [Doug James](https://graphics.stanford.edu/~djames/) at Stanford Univeristy and Professor [Tao Du](https://people.iiis.tsinghua.edu.cn/~taodu/) at Tsinghua Univeristy. Previously, I was also advised by Professor [Hongyang Jia](https://web.ee.tsinghua.edu.cn/jiahongyang/en/index.htm) at Tsinghua Univeristy. I have also collaborate with Professor [Bolei Deng](https://www.boleideng.com/) at Georgia Tech.
 
 My research interest lies in physics-based simulation. I have a strong interest in the intersection of mechanics and computer science.
