@@ -8,41 +8,39 @@ importance: 3
 
 <div class="container my-4">
 
-  <!-- 一段项目介绍（自行修改内容） -->
+  <!-- 一段项目介绍 -->
   <p class="text-muted mx-auto text-center mb-5" style="max-width: 800px;">
     We evaluate the behavior of the passive swimmer under varying stiffness parameters and inflow conditions.
   </p>
 
-  <!-- GIF 1：居中显示 -->
+  <!-- GIF 1：居中 + caption -->
   <section class="mb-5 text-center">
-    <!-- 可选标题（自行修改或删除） -->
-    <h2 class="h4 mb-3">Soft</h2>
     <div class="mt-3">
       {% include figure.liquid
          loading="eager"
-         path="assets/img/soft.gif" 
+         path="assets/img/soft.gif"
          title="Soft"
          class="img-fluid rounded shadow-sm"
       %}
+      <p class="text-muted mt-2"><em>Soft</em></p>
     </div>
   </section>
 
-  <!-- GIF 2：居中显示 -->
+  <!-- GIF 2：居中 + caption -->
   <section class="mb-5 text-center">
-    <h2 class="h4 mb-3">Medium</h2>
     <div class="mt-3">
       {% include figure.liquid
          loading="eager"
-         path="assets/img/medium.gif" 
+         path="assets/img/medium.gif"
          title="Medium"
          class="img-fluid rounded shadow-sm"
       %}
+      <p class="text-muted mt-2"><em>Medium</em></p>
     </div>
   </section>
 
-  <!-- GIF 3：居中显示 -->
+  <!-- GIF 3：居中 + caption -->
   <section class="mb-5 text-center">
-    <h2 class="h4 mb-3">Stiff</h2>
     <div class="mt-3">
       {% include figure.liquid
          loading="eager"
@@ -50,12 +48,12 @@ importance: 3
          title="Stiff"
          class="img-fluid rounded shadow-sm"
       %}
+      <p class="text-muted mt-2"><em>Stiff</em></p>
     </div>
   </section>
 
-  <!-- GIF 4：居中显示 -->
+  <!-- GIF 4：居中 + caption -->
   <section class="mb-5 text-center">
-    <h2 class="h4 mb-3">GIF 4 Title</h2>
     <div class="mt-3">
       {% include figure.liquid
          loading="eager"
@@ -63,6 +61,7 @@ importance: 3
          title="Two Cylinder"
          class="img-fluid rounded shadow-sm"
       %}
+      <p class="text-muted mt-2"><em>Two-cylinder interaction</em></p>
     </div>
   </section>
 
