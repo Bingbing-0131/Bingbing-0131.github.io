@@ -16,7 +16,7 @@ importance: 3
   <!-- GIF 1：居中显示 -->
   <section class="mb-5 text-center">
     <!-- 可选标题（自行修改或删除） -->
-    <h2 class="h4 mb-3">GIF 1 Title</h2>
+    <h2 class="h4 mb-3">Soft</h2>
     <div class="mt-3">
       {% include figure.liquid
          loading="eager"
@@ -29,7 +29,7 @@ importance: 3
 
   <!-- GIF 2：居中显示 -->
   <section class="mb-5 text-center">
-    <h2 class="h4 mb-3">GIF 2 Title</h2>
+    <h2 class="h4 mb-3">Medium</h2>
     <div class="mt-3">
       {% include figure.liquid
          loading="eager"
@@ -42,7 +42,7 @@ importance: 3
 
   <!-- GIF 3：居中显示 -->
   <section class="mb-5 text-center">
-    <h2 class="h4 mb-3">GIF 3 Title</h2>
+    <h2 class="h4 mb-3">Stiff</h2>
     <div class="mt-3">
       {% include figure.liquid
          loading="eager"

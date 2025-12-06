@@ -40,7 +40,7 @@ importance: 2
     <div class="mt-3">
       {% include figure.liquid 
         loading="eager" 
-        path="assets/video/hardware.gif" 
+        path="assets/img/hardware.gif" 
         title="XPBD wing simulation" 
         class="img-fluid rounded shadow-sm"
       %}
@@ -110,7 +110,7 @@ importance: 2
     <div class="mt-3">
       {% include figure.liquid 
         loading="eager" 
-        path="assets/video/hardware.gif" 
+        path="assets/img/hardware.gif" 
         title="Hardware Design" 
         class="img-fluid rounded shadow-sm"
       %}
