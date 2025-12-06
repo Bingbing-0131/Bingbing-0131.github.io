@@ -10,7 +10,6 @@ importance: 3
 
   <!-- 一段项目介绍（自行修改内容） -->
   <p class="text-muted mx-auto text-center mb-5" style="max-width: 800px;">
-    <!-- TODO: 在这里写一段关于被动游动器（passive swimmer）的简介 -->
     We evaluate the behavior of the passive swimmer under varying stiffness parameters and inflow conditions.
   </p>
 
@@ -21,7 +20,7 @@ importance: 3
     <div class="mt-3">
       {% include figure.liquid
          loading="eager"
-         path="assets/img/soft.gif"   <!-- TODO: 替换为你的第一个 GIF 路径 -->
+         path="assets/img/soft.gif" 
          title="Soft"
          class="img-fluid rounded shadow-sm"
       %}
@@ -34,7 +33,7 @@ importance: 3
     <div class="mt-3">
       {% include figure.liquid
          loading="eager"
-         path="assets/img/medium.gif"   <!-- TODO: 替换为你的第二个 GIF 路径 -->
+         path="assets/img/medium.gif" 
          title="Medium"
          class="img-fluid rounded shadow-sm"
       %}
@@ -47,7 +46,7 @@ importance: 3
     <div class="mt-3">
       {% include figure.liquid
          loading="eager"
-         path="assets/img/stiff.gif"   <!-- TODO: 替换为你的第三个 GIF 路径 -->
+         path="assets/img/stiff.gif"
          title="Stiff"
          class="img-fluid rounded shadow-sm"
       %}
