@@ -59,7 +59,7 @@ importance: 3
     <div class="mt-3">
       {% include figure.liquid
          loading="eager"
-         path="assets/img/two_cylinder.gif"   <!-- TODO: 替换为你的第四个 GIF 路径 -->
+         path="assets/img/two_cylinder.gif"
          title="Two Cylinder"
          class="img-fluid rounded shadow-sm"
       %}
