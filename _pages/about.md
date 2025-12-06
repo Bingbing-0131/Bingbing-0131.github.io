@@ -46,4 +46,3 @@ Hi! I'm Yuchen Su, a senior undergraduate student in [Tsien Excellence of Engine
 I am currently advised by Professor [Doug James](https://graphics.stanford.edu/~djames/) at Stanford University and mentored by [Eris Zhang](https://eriszhang.github.io/) and [Kangrui Xue](https://web.stanford.edu/~kangruix/). I have had a great time during the [UGVR program](https://www.linkedin.com/school/ugvr/)! I am also advised by Professor [Tao Du](https://people.iiis.tsinghua.edu.cn/~taodu/) at Tsinghua University. Previously, I was also advised by Professor [Hongyang Jia](https://web.ee.tsinghua.edu.cn/jiahongyang/en/index.htm) at Tsinghua University. I have also collaborated with Professor [Bolei Deng](https://www.boleideng.com/) at Georgia Tech.
 
 My research interest lies in physics-based simulation. I have a strong interest in the intersection of mechanics and computer science.
-

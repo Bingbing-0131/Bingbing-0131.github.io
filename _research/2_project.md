@@ -102,7 +102,6 @@ importance: 2
     </div>
   </section>
 
-
   <!-- XPBD wing simulation：硬件验证，上下居中 -->
   <section class="mb-5 text-center">
     <h2 class="h4 mb-3">XPBD Wing Simulation</h2>
@@ -142,6 +141,5 @@ importance: 2
       </div>
     </div>
   </section>
-
 
 </div>
