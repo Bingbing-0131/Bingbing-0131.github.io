@@ -5,5 +5,5 @@ description: An implementation of stable fluid with irregular boundary
 img: assets/img/4.jpg
 importance: 3
 category: work
-related_publications: true
+github: https://github.com/Bingbing-0131/stable-fluid
 ---
