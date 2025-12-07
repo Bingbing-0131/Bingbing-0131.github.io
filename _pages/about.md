@@ -41,8 +41,8 @@ research:
   limit: 5 # 想显示几条就写几条，不要就删掉这一行
 ---
 
-Hi! I'm Yuchen Su, a senior undergraduate student in Tsien Excellence of Engineering Program ([TEEP](https://www.hy.tsinghua.edu.cn/hyen/Academics/Lectures.htm)) at Tsinghua University, majoring in Theoretical and Applied Mechanics.
+Hi! I'm Yuchen Su, a senior undergraduate student in the Tsien Excellence in Engineering Program ([TEEP](https://www.hy.tsinghua.edu.cn/hyen/Academics/Lectures.htm)) at Tsinghua University, majoring in Theoretical and Applied Mechanics.
 
-I am currently advised by Professor [Doug James](https://graphics.stanford.edu/~djames/) at Stanford University and mentored by [Eris Zhang](https://eriszhang.github.io/) and [Kangrui Xue](https://web.stanford.edu/~kangruix/). I have had a great time during the [UGVR program](https://www.linkedin.com/school/ugvr/)! I am also advised by Professor [Tao Du](https://people.iiis.tsinghua.edu.cn/~taodu/) at Tsinghua University. Previously, I was also advised by Professor [Hongyang Jia](https://web.ee.tsinghua.edu.cn/jiahongyang/en/index.htm) at Tsinghua University. I have also collaborated with Professor [Bolei Deng](https://www.boleideng.com/) at Georgia Tech.
+I am currently advised by Professor [Doug James](https://graphics.stanford.edu/~djames/) at Stanford University and mentored by [Eris Zhang](https://eriszhang.github.io/) and [Kangrui Xue](https://web.stanford.edu/~kangruix/) on physics simulation. I have had a wonderful experience participating in the [UGVR](https://www.linkedin.com/school/ugvr/) program! I am also advised by Professor [Tao Du](https://people.iiis.tsinghua.edu.cn/~taodu/) at Tsinghua University on physics simulation. Previously, I worked with Professor [Hongyang Jia](https://web.ee.tsinghua.edu.cn/jiahongyang/en/index.htm) on mixed-precision computing and collaborated with Professor [Bolei Deng](https://www.boleideng.com/) at Georgia Tech on computational design.
 
-My research interest lies in physics-based simulation. I have a strong interest in the intersection of mechanics and computer science.
+My research interest lies in physics-based simulation, and I am particularly excited about the intersection of mechanics and computer science.
