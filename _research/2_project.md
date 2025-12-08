@@ -41,7 +41,7 @@ importance: 2
       {% include figure.liquid 
         loading="eager" 
         path="assets/img/sim.gif" 
-        title="XPBD wing simulation" 
+        title="XPBD & LBM coupled wing simulation" 
         class="img-fluid rounded shadow-sm"
       %}
       <div class="caption text-muted mt-2">
