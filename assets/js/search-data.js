@@ -76,11 +76,6 @@ ninja.data = [{
           description: "collaborated with Professor Bolei Deng",
           section: "Research",handler: () => {
               window.location.href = "/research/4_project.html";
-            },},{id: "research-progressive-sound-synthesis",
-          title: 'Progressive Sound Synthesis',
-          description: "guided by Professor Doug James, mentored by Eris Zhang and Kangrui Xue",
-          section: "Research",handler: () => {
-              window.location.href = "/research/progressive.html";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
