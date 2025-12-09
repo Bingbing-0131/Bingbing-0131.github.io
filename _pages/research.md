@@ -4,12 +4,9 @@ title: Research
 permalink: /research/
 nav: true # 导航栏里显示 Research
 nav_order: 4
-description: Research projects.
 ---
 
 <div class="projects">
-  <h1 class="mb-4">Research</h1>
-
 {%- comment -%}
 使用 research collection：
 site.research 里的每个条目都有 front matter: title / description / img / importance / github
