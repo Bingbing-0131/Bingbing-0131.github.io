@@ -40,7 +40,7 @@ importance: 2
     <div class="mt-3">
       {% include figure.liquid 
         loading="eager" 
-        path="assets/img/sim.gif" 
+        path="assets/img/XPBD.gif" 
         title="XPBD & LBM coupled wing simulation" 
         class="img-fluid rounded shadow-sm"
       %}
