@@ -68,14 +68,19 @@ ninja.data = [{
               window.location.href = "/projects/large_time_step.html";
             },},{id: "research-computational-design-of-bio-inspired-fliers",
           title: 'Computational Design of Bio-Inspired Fliers',
-          description: "guided by Professor Tao Du",
+          description: "Guided by Professor Tao Du",
           section: "Research",handler: () => {
               window.location.href = "/research/2_project.html";
             },},{id: "research-computation-design-of-passive-swimmer",
           title: 'Computation Design of passive swimmer',
-          description: "collaborated with Professor Bolei Deng",
+          description: "Collaborated with Professor Bolei Deng",
           section: "Research",handler: () => {
               window.location.href = "/research/4_project.html";
+            },},{id: "research-progressive-sound-synthesis",
+          title: 'Progressive Sound Synthesis',
+          description: "Guided by Professor Doug James, Mentored by Eris Zhang and Kangrui Xue",
+          section: "Research",handler: () => {
+              window.location.href = "/research/progressive.html";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
