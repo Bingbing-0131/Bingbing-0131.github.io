@@ -41,7 +41,7 @@ research:
   limit: 5 # 想显示几条就写几条，不要就删掉这一行
 ---
 
-Hi! I'm Yuchen Su, a senior undergraduate student in the Tsien Excellence in Engineering Program ([TEEP](https://www.hy.tsinghua.edu.cn/hyen/Academics/Lectures.htm)) at Tsinghua University, majoring in Theoretical and Applied Mechanics.
+Hi! I'm Yuchen Su, a senior undergraduate student in the Tsien Excellence of Engineering Program ([TEEP](https://www.hy.tsinghua.edu.cn/hyen/Academics/Lectures.htm)) at Tsinghua University, majoring in Theoretical and Applied Mechanics.
 
 I am currently advised by Professor [Doug James](https://graphics.stanford.edu/~djames/) at Stanford University and Professor [Tao Du](https://people.iiis.tsinghua.edu.cn/~taodu/) at Tsinghua University on physics simulation. Previously, I was also advised by Professor [Hongyang Jia](https://web.ee.tsinghua.edu.cn/jiahongyang/en/index.htm) at Tsinghua University.
 
