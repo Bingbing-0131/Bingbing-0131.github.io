@@ -71,11 +71,6 @@ ninja.data = [{
           description: "Guided by Professor Tao Du",
           section: "Research",handler: () => {
               window.location.href = "/research/2_project.html";
-            },},{id: "research-computation-design-of-passive-swimmer",
-          title: 'Computation Design of passive swimmer',
-          description: "Collaborated with Professor Bolei Deng",
-          section: "Research",handler: () => {
-              window.location.href = "/research/4_project.txt";
             },},{id: "research-progressive-sound-synthesis",
           title: 'Progressive Sound Synthesis',
           description: "Guided by Professor Doug James, Mentored by Eris Zhang and Kangrui Xue",
