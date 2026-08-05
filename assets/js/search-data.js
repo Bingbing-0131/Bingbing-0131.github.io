@@ -75,7 +75,7 @@ ninja.data = [{
           title: 'Computation Design of passive swimmer',
           description: "Collaborated with Professor Bolei Deng",
           section: "Research",handler: () => {
-              window.location.href = "/research/4_project.html";
+              window.location.href = "/research/4_project.txt";
             },},{id: "research-progressive-sound-synthesis",
           title: 'Progressive Sound Synthesis',
           description: "Guided by Professor Doug James, Mentored by Eris Zhang and Kangrui Xue",
