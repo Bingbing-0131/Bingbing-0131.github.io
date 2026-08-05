@@ -1,5 +1,6 @@
 ---
 layout: page
+published: false
 title: Stable Fluid
 description: A Taichi implementation of stable fluid
 img: assets/img/Low_Reynolds.gif

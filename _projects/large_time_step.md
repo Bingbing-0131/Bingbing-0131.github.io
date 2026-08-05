@@ -1,5 +1,6 @@
 ---
 layout: page
+published: false
 title: A Taichi implementation of Discrete Shells
 
 description: >
