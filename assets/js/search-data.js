@@ -56,16 +56,6 @@ ninja.data = [{
           description: "course project of CFD",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project.html";
-            },},{id: "projects-stable-fluid",
-          title: 'Stable Fluid',
-          description: "A Taichi implementation of stable fluid",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project.html";
-            },},{id: "projects-a-taichi-implementation-of-discrete-shells",
-          title: 'A Taichi implementation of Discrete Shells',
-          description: "Yuchen Su, Mingxuan Liu   &quot;Best Course Project&quot; of Physics Simulation, awarded  by Dr. Kui Wu from Tencent.   We built a finite element method (FEM)-based solver for simulating the elastic deformation of thin shells with collision detection.I set up the main codebase and collision detection module.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/large_time_step.html";
             },},{id: "research-computational-design-of-bio-inspired-fliers",
           title: 'Computational Design of Bio-Inspired Fliers',
           description: "Guided by Professor Tao Du",
