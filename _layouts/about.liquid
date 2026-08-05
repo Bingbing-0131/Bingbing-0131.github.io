@@ -68,7 +68,9 @@ layout: default
             <!-- 右边：文字 -->
             <div class="col-md-8">
               <h3 class="mt-2 mt-md-0">
-                {% if project.github %}
+                {% if project.link == false %}
+                  {{ project.title }}
+                {% elsif project.github %}
                   <a href="{{ project.github }}" target="_blank" rel="noopener">
                     {{ project.title }}
                   </a>

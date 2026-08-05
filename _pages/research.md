@@ -31,7 +31,9 @@ site.research 里的每个条目都有 front matter: title / description / img /
       <!-- 右边：文字信息 -->
       <div class="col-md-8">
         <h3 class="mt-2 mt-md-0">
-          {% if project.github %}
+          {% if project.link == false %}
+            {{ project.title }}
+          {% elsif project.github %}
             <a href="{{ project.github }}" target="_blank" rel="noopener">
               {{ project.title }}
             </a>

@@ -4,6 +4,7 @@ title: Computational Design of Bio-Inspired Fliers
 description: Guided by Professor Tao Du
 img: assets/img/butterfly.gif
 importance: 2
+link: false
 ---
 
 <div class="container my-4">
