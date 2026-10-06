@@ -100,7 +100,7 @@ collections:
       layout: post
     output: false
   projects:
-    output: true
+    output: false
   research:
     output: true
 

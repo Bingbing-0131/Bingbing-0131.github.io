@@ -9,7 +9,7 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: |-
     <div>
-      <a href="https://www.linkedin.com/in/yuchen-su-060069348/" title="Email Me">
+      <a href="mailto:yus151@ucsd.edu" title="Email Me">
         <i class="fa-solid fa-envelope" style="font-size: 49px;"></i>
       </a>
       <a href="https://www.linkedin.com/in/yuchen-su-060069348/" title="Inspire HEP" rel="external nofollow noopener" target="_blank">
@@ -27,7 +27,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 projects:
-  enabled: true # includes a list of news items
+  enabled: false # hide projects on the home page
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
